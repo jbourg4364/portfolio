@@ -1,0 +1,175 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+/* Header & Nav */
+header {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-emphasis: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 80px;
+
+}
+
+header h1 {
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px lightskyblue;
+}
+
+header nav {
+    word-spacing: 25px;
+    font-size: 15px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    width: 115px;
+    height: 40px;
+}
+
+header button:hover {
+   box-shadow: 2px 2px 5px lightskyblue;
+   font-size: 21px;
+   background-color: blueviolet;
+   color: white;
+}
+
+
+/* Projects Section */
+.projects-container {
+    height: 800px;
+    width: 80%;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.projects-container h2 {
+    text-align: left;
+    font-size: 45px;
+    margin-left: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+
+.projects-container hr {
+    margin-top: 0;
+    
+}
+
+.projects-content {
+    margin: 0 auto;
+    text-align: center;
+    height: 700px;
+    width: 75%;
+    color: white;
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+.project {
+    height: 450px;
+    background-color: #7925c1;
+    box-shadow: 5px 5px 5px black;
+    padding-top: 20px;
+}
+
+.project h2 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px black;
+}
+
+.project img {
+    height: 200px;
+    float: right;
+    margin-right: 20px;
+    padding: 1px; 
+    margin-top: 50px;
+    border: 2px solid white;
+    margin-left: 30px;
+    box-shadow: 3px 3px 2px black;
+
+}
+
+.project p {
+    font-size: 25px;
+    float: inline-start;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.project button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    width: 115px;
+    height: 40px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.project button:hover {
+    box-shadow: 2px 2px 5px lightskyblue;
+    font-size: 21px;
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    height: 40px;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 5px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: black;
+    padding: 45px;
+}
+
+footer a:hover {
+    color: blueviolet;
+}
+
+footer img {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-bottom: 60px;
+    border: 3px black solid;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.732);
+}
